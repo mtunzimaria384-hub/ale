@@ -145,6 +145,15 @@ export const mockFoods: Food[] = [
     category: 'Seafood'
   },
   {
+    id: 'food-15b',
+    storeId: 'store-3',
+    storeName: 'My Oyster House',
+    name: 'Seafood Platter',
+    image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=400',
+    price: 200,
+    category: 'Seafood'
+  },
+  {
     id: 'food-16',
     storeId: 'store-4',
     storeName: 'The Asian Kitchen',

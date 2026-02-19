@@ -319,7 +319,7 @@ function AppContent() {
               element={<Shop />}
             />
             <Route
-              path="/order-foodies"
+              path="/order-foodies/:storeId"
               element={<OrderFoodies />}
             />
             <Route

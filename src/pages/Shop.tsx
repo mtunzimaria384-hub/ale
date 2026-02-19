@@ -39,12 +39,7 @@ export const Shop: React.FC = () => {
   };
 
   const handleStoreClick = (store: Store) => {
-    navigate('/order-foodies', {
-      state: {
-        storeId: store.id,
-        storeName: store.name
-      }
-    });
+    navigate(`/order-foodies/${store.id}`);
   };
 
   return (
